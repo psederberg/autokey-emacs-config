@@ -1,0 +1,13 @@
+*.orig
+*~
+*.py[co]
+\#*
+\.\#*
+build
+_build
+*.so
+build-arch*
+dist
+MANIFEST
+*.pickle
+*.egg-info
