@@ -11,7 +11,7 @@ s =  engine.get_return_value()
 #logging.debug(window.get_active_class())
 
 #if re.match('^((?!.*Emacs).)*$', window.get_active_class()):
-if re.match('.*(Emacs|Guake|gnome-terminal|konsole)', window.get_active_class()):
+if re.match('.*(Emacs|gnome-terminal|konsole)', window.get_active_class()):
     #logging.debug('passing through (%s) for %s' % (h, window.get_active_class()))
     keyboard.send_keys(h)
     store.set_global_value('ignored', True)

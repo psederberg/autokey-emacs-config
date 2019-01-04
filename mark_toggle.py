@@ -1,7 +1,7 @@
 # Enter script code
 import re
 if re.match('.*(Emacs|Gnome-terminal|konsole)', window.get_active_class()):
-    pass
+    keyboard.send_keys('<ctrl>+ ')
 else:
     sh_on = store.get_global_value('shift_on')
 
