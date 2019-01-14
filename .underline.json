@@ -1,8 +1,8 @@
 {
-    "usageCount": 7, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "cut_emacs", 
+    "description": "underline", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,9 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "w", 
+        "hotKey": "u", 
         "modifiers": [
-            "<ctrl>"
+            "<super>"
         ]
     }, 
     "modes": [

@@ -1,6 +1,6 @@
 # set the actions
-hotkey = '<ctrl>+w'
-newkey = '<ctrl>+x'
+hotkey = '<super>+b'
+newkey = '<ctrl>+b'
 
 # save the hotkey for pasthrough 
 store.set_global_value('hotkey', hotkey)
@@ -15,3 +15,4 @@ engine.run_script('process_key')
 ignored = store.get_global_value('ignored')
 if not ignored:
     store.set_global_value('shift_on', False)
+
