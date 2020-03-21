@@ -1,5 +1,5 @@
 # set the actions
-hotkey = '<ctrl>+f'
+hotkey = '<alt>+f'
 newkey = '<ctrl>+<right>'
 
 # save the hotkey for pasthrough 

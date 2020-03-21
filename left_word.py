@@ -1,5 +1,5 @@
 # set the actions
-hotkey = '<ctrl>+b'
+hotkey = '<alt>+b'
 newkey = '<ctrl>+<left>'
 
 # save the hotkey for pasthrough 
